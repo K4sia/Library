@@ -1,4 +1,4 @@
-<u>---Adam - 20121016 18:24</u>
+---Adam - 20121016 18:24
 
 edytowałem ddl'a dla oracle na ddl'a mysql - postawilem bazę - mozecie sobie podejrzeć. Wszystkie pliki są również dodane tutaj. Sprawdźcie przoszę czy wszystkie tabele są tak jak trzeba w phpmyadmin (sql.doe.pl)
 
