@@ -1,0 +1,15 @@
+C:\Documents and Settings\STUDENT\Pulpit\projekt\ConnectCsharpToMysql\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\STUDENT\Pulpit\projekt\ConnectCsharpToMysql\obj\Debug\ConnectCsharpToMysql.Form1.resources
+C:\Documents and Settings\STUDENT\Pulpit\projekt\ConnectCsharpToMysql\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+C:\Documents and Settings\STUDENT\Pulpit\projekt\ConnectCsharpToMysql\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\STUDENT\Pulpit\projekt\ConnectCsharpToMysql\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\bin\Debug\ConnectCsharpToMysql.exe
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\bin\Debug\ConnectCsharpToMysql.pdb
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\bin\Debug\MySql.Data.dll
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\obj\Debug\ResolveAssemblyReference.cache
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\obj\Debug\ConnectCsharpToMysql.Form1.resources
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\obj\Debug\ConnectCsharpToMysql.exe
+E:\PG\WZORCEPROJEKTOWE\projekt\ConnectCsharpToMysql\obj\Debug\ConnectCsharpToMysql.pdb
