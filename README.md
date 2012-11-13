@@ -1,5 +1,10 @@
 ---Adam - 20121113
 
+Dodałem na github nasz program - pokomentowałem podstawowe rzeczy. Od razu przyznaję się bez bicia, że mnie za tydzień nie będzie.
+
+
+---Adam - 20121113
+
 Znalazłem w sieci super tutorial do obsługi bazy danych Mysql w C# - super sprawa i mz możemy z niego skorzystać.
 http://www.codeproject.com/Articles/43438/Connect-C-to-MySQL
 
