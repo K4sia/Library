@@ -57,3 +57,15 @@ C:\Users\adam\Documents\Visual Studio 2010\Projects\BIBLIOTEKA\bin\Debug\Connect
 C:\Users\adam\Documents\Visual Studio 2010\Projects\BIBLIOTEKA\obj\Debug\ConnectCsharpToMysql.Form2.resources
 C:\Users\adam\Documents\Visual Studio 2010\Projects\BIBLIOTEKA\obj\Debug\ConnectCsharpToMysql.Form3.resources
 C:\Users\adam\Documents\Visual Studio 2010\Projects\BIBLIOTEKA\obj\Debug\ConnectCsharpToMysql.Form4.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form2.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ResGen.read.1.tlog
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ResGen.write.1.tlog
