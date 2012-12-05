@@ -278,7 +278,9 @@ namespace ConnectCsharpToMysql
         //nacisniecie r
         public void r(object sender, PreviewKeyDownEventArgs e)
         {
+            //deklarujemy datagridview na rzedach
             DataGridViewRow myRow = dgDisplay.CurrentRow;
+            //wyciagamy autora (2 kolumna) i przypisujemy do zmiennej publicznej autor itd...
             autor = myRow.Cells[2].Value.ToString();
             tutul = myRow.Cells[3].Value.ToString();
             available = myRow.Cells[4].Value.ToString();
@@ -286,6 +288,7 @@ namespace ConnectCsharpToMysql
 
             //MessageBox.Show(autor + " " + tutul + " " + available + " " + reserved);
             
+            //wywolujemy okno edytuj
             Form5 edytuj = new Form5();
             edytuj.Show();
         }
