@@ -1,3 +1,8 @@
+﻿---Adam - 20121204
+
+Dodana funkcjonalnosc szukania, dodawania rekordow, zarowno z menu jak i poprzez przyciski - kuleje natomiast edycja, ale wszystko jest napisane, trzeba tylko porawdzic sobie z malymi bledami. Wszystko w komentarzach.
+
+
 ---Adam - 20121113
 
 Dodałem na github nasz program - pokomentowałem podstawowe rzeczy. Od razu przyznaję się bez bicia, że mnie za tydzień nie będzie.
