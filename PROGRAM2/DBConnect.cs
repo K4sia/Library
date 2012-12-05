@@ -80,46 +80,47 @@ namespace ConnectCsharpToMysql
         }
 
         //Insert statement
-        //public void Insert()
-        //{
-        //    string query = "INSERT INTO LIBRARY (Id_Library, Street, Nr_House, Nr_Local, Manager_Name, Manager_Surname) VALUES(1 , 'Narwicka','5', '1','Adam', 'Monika')";
-
-        //    //open connection
-        //    if (this.OpenConnection() == true)
-        //    {
-        //        //create command and assign the query and connection from the constructor
-        //        MySqlCommand cmd = new MySqlCommand(query, connection);
-                
-        //        //Execute command
-        //        cmd.ExecuteNonQuery();
-
-        //        //close connection
-        //        this.CloseConnection();
-        //    }
-        //}
+        public void Insert(int id_kind, string title, string name, string av, string res)
+        {
+        string query = "INSERT INTO RESOURCES (Id_Kind, Title, Author_Name, Is_Available, Is_Reserve) VALUES("+id_kind+",'"+title+"','"+name+"','"+av+"','"+res+"')";
+        
+            //open connection
+        if (this.OpenConnection() == true)
+            {
+                 //create command and assign the query and connection from the constructor
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                //Execute command
+                cmd.ExecuteNonQuery();
+                //close connection
+                this.CloseConnection();
+            }
+        }
 
         //Update statement
-        //public void Update()
-        //{
-        //    string query = "UPDATE tableinfo SET name='Joe', age='22' WHERE name='John Smith'";
+        public void Update1(string title, string author, string av, string res, string title_ed, string author_ed, string av_ed, string res_ed)
+        {
+            string query = "UPDATE RESOURCES SET Title='"+title+"', Author_Name='"+author+"', Is_Avaliable='"+av+"', Is_Reserve='"+res+"' WHERE Title='"+title_ed+"', Author_Name='"+author_ed+"', Is_Avaliable='"+av_ed+"', Is_Reserve='"+res_ed+"'";
 
-        //    //Open connection
-        //    if (this.OpenConnection() == true)
-        //    {
-        //        //create mysql command
-        //        MySqlCommand cmd = new MySqlCommand();
-        //        //Assign the query using CommandText
-        //        cmd.CommandText = query;
-        //        //Assign the connection using Connection
-        //        cmd.Connection = connection;
+            //Open connection
+            if (this.OpenConnection() == true)
+            {
+                //create mysql command
+                MySqlCommand cmd = new MySqlCommand();
+                //Assign the query using CommandText
+                cmd.CommandText = query;
+                //Assign the connection using Connection
+                cmd.Connection = connection;
 
-        //        //Execute query
-        //        cmd.ExecuteNonQuery();
+                //Execute query
+                cmd.ExecuteNonQuery();
 
-        //        //close connection
-        //        this.CloseConnection();
-        //    }
-        //}
+                //close connection
+                this.CloseConnection();
+            }
+        }
+
+
+
 
         //Delete statement
         //public void Delete()
@@ -138,8 +139,8 @@ namespace ConnectCsharpToMysql
         public List<string>[] Select(string paramnasze, string tekst) // paramnasze- nazwa kolumny; tekst- podany autor/tytul
         {
             string param=paramnasze;
-            string tekst1="'"+tekst+"'";
-            string query = "SELECT * FROM RESOURCES where "+ param+"="+tekst1;
+            string tekst1="'%"+tekst+"%'";
+            string query = "SELECT * FROM RESOURCES where "+param+" like "+tekst1;
 
             //Create a list to store the result
             List<string>[] list = new List<string>[7];

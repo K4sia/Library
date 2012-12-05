@@ -66,5 +66,12 @@ namespace ConnectCsharpToMysql.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        public static System.Drawing.Bitmap tlo {
+            get {
+                object obj = ResourceManager.GetObject("tlo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

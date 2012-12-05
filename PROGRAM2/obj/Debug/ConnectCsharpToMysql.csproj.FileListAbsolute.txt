@@ -69,3 +69,19 @@ C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.F
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ResGen.read.1.tlog
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ResGen.write.1.tlog
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form2.resources
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\GenerateResource-ResGen.read.6.tlog
+C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\Resources\tlo.jpg

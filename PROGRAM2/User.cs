@@ -15,11 +15,11 @@ namespace ConnectCsharpToMysql
             string[] tab = new string[2];
             if (kryterium == 1)
             {
-                param = "author_name";
+                param = "Author_Name";
             }
             if (kryterium == 2)
             {
-                param = "title";
+                param = "Title";
             }
             else
             { //wyrzuc blad, ze kryterium jest zle

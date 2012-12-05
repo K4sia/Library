@@ -88,6 +88,12 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Library.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,6 +111,9 @@
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\ConnectCsharpToMysql.Form1.resources" />
     <EmbeddedResource Include="obj\Debug\ConnectCsharpToMysql.Form2.resources" />
     <EmbeddedResource Include="obj\Debug\ConnectCsharpToMysql.Form3.resources" />
@@ -120,6 +129,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Release\ConnectCsharpToMysql.vshost.exe.manifest" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\GenerateResource-ResGen.read.1.tlog" />
     <None Include="obj\Debug\GenerateResource-ResGen.write.1.tlog" />
@@ -156,12 +166,21 @@
   <ItemGroup>
     <Content Include="bin\Debug\ConnectCsharpToMysql.exe" />
     <Content Include="bin\Debug\ConnectCsharpToMysql.pdb" />
+    <Content Include="Resources\tlo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\tlo2.bmp" />
+    <None Include="Resources\Lilie wodne.jpg" />
+    <None Include="Resources\Zima.jpg" />
+    <None Include="Resources\ksiazka.jpg" />
     <None Include="img\ksiazka.jpg" />
+    <Content Include="bin\Release\ConnectCsharpToMysql.vshost.exe" />
     <Content Include="obj\Debug\ConnectCsharpToMysql.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\ConnectCsharpToMysql.exe" />
     <Content Include="obj\Debug\ConnectCsharpToMysql.pdb" />
     <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

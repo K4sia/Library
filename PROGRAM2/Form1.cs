@@ -15,8 +15,9 @@ namespace ConnectCsharpToMysql
         public Form1()
         {
             InitializeComponent();
-
             dbConnect = new DBConnect();
+            
+
         }
 
 
@@ -147,17 +148,17 @@ namespace ConnectCsharpToMysql
 
                 }
                 MessageBox.Show("Znaleziono " +  list[0].Count + " wyników");
+                
             }
         }
 
-        private void dgDisplay_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        public void dgDisplay_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -184,6 +185,112 @@ namespace ConnectCsharpToMysql
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void dodajToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_3(object sender, EventArgs e)
+        {
+            Form4 ksiazka = new Form4();
+            ksiazka.Show();
+        }
+
+        private void ksiazkeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 ksiazka = new Form3();
+            ksiazka.Show();
+        }
+
+        private void filmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 film = new Form4();
+            film.Show();
+        }
+
+        private void muzykeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 muza = new Form2();
+            muza.Show();
+        }
+
+        private void odtworzBDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dbConnect.Restore();
+        }
+
+        private void backupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dbConnect.Backup();
+        }
+
+        private void rezerwuj_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow myRow = dgDisplay.CurrentRow;
+            myRow.Cells[0].ToString();
+            MessageBox.Show(myRow.Cells[0].Value.ToString());
+        }
+
+        
+
+        //podwojne klikniecie na liste
+        public void dgDisplay_DoubleClick(object sender, EventArgs e)
+        {
+
+            //MessageBox.Show(autor);             
+            //MessageBox.Show(myRow.Cells[3].Value.ToString());
+                                   
+            //nowy "myRow" z obecnie zaznaczonego rowa
+            //DataGridViewRow myRow = dgDisplay.CurrentRow;
+            //myRow.Cells[0].ToString();
+            //messagebox
+            //MessageBox.Show(myRow.Cells[0].Value.ToString());
+        }
+
+        public string autor;
+        public string tutul;
+        public string available;
+        public string reserved;
+        //nacisniecie r
+        public void r(object sender, PreviewKeyDownEventArgs e)
+        {
+            DataGridViewRow myRow = dgDisplay.CurrentRow;
+            autor = myRow.Cells[2].Value.ToString();
+            tutul = myRow.Cells[3].Value.ToString();
+            available = myRow.Cells[4].Value.ToString();
+            reserved = myRow.Cells[5].Value.ToString();
+
+            //MessageBox.Show(autor + " " + tutul + " " + available + " " + reserved);
+            
+            Form5 edytuj = new Form5();
+            edytuj.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
