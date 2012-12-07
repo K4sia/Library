@@ -27,12 +27,21 @@ namespace ConnectCsharpToMysql
             string name = textBox2.Text;
             string av = "Y";
             string res = "N";
+             if (title == "" && name == "")
+                MessageBox.Show("Prosze podac dane");
+            else if (title == "")
+                MessageBox.Show("Prosze podac tutul");
+             else if (name == "")
+                 MessageBox.Show("Prosze podac autora");
+             else
+             {
+                 dbConnect.Insert(id_kind, title, name, av, res);
 
-            dbConnect.Insert(id_kind, title, name, av, res);
+                 this.Close();
 
-            this.Close();
+                 MessageBox.Show("Dodano poprawnie");
+             }
 
-            MessageBox.Show("Dodano poprawnie");
         }
     }
 }

@@ -28,6 +28,7 @@ namespace ConnectCsharpToMysql
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dgDisplay = new System.Windows.Forms.DataGridView();
             this.ciD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,7 +44,7 @@ namespace ConnectCsharpToMysql
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.button3 = new System.Windows.Forms.Button();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.autorzyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,7 +58,7 @@ namespace ConnectCsharpToMysql
             this.zalogujToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zmienUzytkownikaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wylogujToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button3 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             ((System.ComponentModel.ISupportInitialize)(this.dgDisplay)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -168,13 +169,16 @@ namespace ConnectCsharpToMysql
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(385, 369);
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackgroundImage = global::SPB.Properties.Resources.book;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(464, 369);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 54);
+            this.button2.Size = new System.Drawing.Size(66, 62);
             this.button2.TabIndex = 19;
-            this.button2.Text = "DODAJ KSI¥¯KÊ";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -191,13 +195,16 @@ namespace ConnectCsharpToMysql
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(491, 369);
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.BackgroundImage = global::SPB.Properties.Resources.music;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(534, 375);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 54);
+            this.button4.Size = new System.Drawing.Size(61, 61);
             this.button4.TabIndex = 22;
-            this.button4.Text = "DODAJ MUZE";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -205,26 +212,26 @@ namespace ConnectCsharpToMysql
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(277, 349);
+            this.label3.Location = new System.Drawing.Point(398, 349);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 17);
             this.label3.TabIndex = 24;
             this.label3.Text = "DODAJ";
             // 
-            // menuStrip1
+            // button3
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.dodajToolStripMenuItem,
-            this.narzedziaToolStripMenuItem,
-            this.zalogujToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(603, 24);
-            this.menuStrip1.TabIndex = 26;
-            this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackgroundImage = global::SPB.Properties.Resources.movie;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(399, 370);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(54, 62);
+            this.button3.TabIndex = 27;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_3);
             // 
             // fileToolStripMenuItem
             // 
@@ -294,14 +301,14 @@ namespace ConnectCsharpToMysql
             // backupToolStripMenuItem
             // 
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.backupToolStripMenuItem.Text = "Backup BD";
             this.backupToolStripMenuItem.Click += new System.EventHandler(this.backupToolStripMenuItem_Click);
             // 
             // odtworzBDToolStripMenuItem
             // 
             this.odtworzBDToolStripMenuItem.Name = "odtworzBDToolStripMenuItem";
-            this.odtworzBDToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.odtworzBDToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.odtworzBDToolStripMenuItem.Text = "Odtworz BD";
             this.odtworzBDToolStripMenuItem.Click += new System.EventHandler(this.odtworzBDToolStripMenuItem_Click);
             // 
@@ -326,23 +333,27 @@ namespace ConnectCsharpToMysql
             this.wylogujToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.wylogujToolStripMenuItem.Text = "wyloguj";
             // 
-            // button3
+            // menuStrip1
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(279, 369);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 54);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "DODAJ FILM";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click_3);
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.dodajToolStripMenuItem,
+            this.narzedziaToolStripMenuItem,
+            this.zalogujToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(603, 24);
+            this.menuStrip1.TabIndex = 26;
+            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(603, 439);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
@@ -361,7 +372,7 @@ namespace ConnectCsharpToMysql
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Connect Csharp To Mysql";
+            this.Text = "SPB - Super Program dla Bibliotekarek";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgDisplay)).EndInit();
             this.menuStrip1.ResumeLayout(false);
@@ -381,28 +392,28 @@ namespace ConnectCsharpToMysql
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dodajToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ksiazkeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem muzykeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem filmToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem autorzyToolStripMenuItem;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ToolStripMenuItem narzedziaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem backupToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem odtworzBDToolStripMenuItem;
         public System.Windows.Forms.DataGridView dgDisplay;
-        private System.Windows.Forms.ToolStripMenuItem zalogujToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem zmienUzytkownikaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem wylogujToolStripMenuItem;
         private System.Windows.Forms.DataGridViewTextBoxColumn ciD;
         private System.Windows.Forms.DataGridViewTextBoxColumn cName;
         private System.Windows.Forms.DataGridViewTextBoxColumn cAge;
         private System.Windows.Forms.DataGridViewTextBoxColumn Author_name;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem autorzyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dodajToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ksiazkeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem muzykeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem filmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem narzedziaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backupToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem odtworzBDToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zalogujToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zmienUzytkownikaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem wylogujToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }
 
