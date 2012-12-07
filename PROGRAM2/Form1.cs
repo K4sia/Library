@@ -258,12 +258,19 @@ namespace ConnectCsharpToMysql
         
 
         //podwojne klikniecie na liste
-        public void dgDisplay_DoubleClick(object sender, EventArgs e)
+        private void dgDisplay_DoubleClick(object sender, EventArgs e)
         {
+            DataGridViewRow myRow = dgDisplay.CurrentRow;
+            string autor = myRow.Cells[2].Value.ToString();
+            string tutul = myRow.Cells[3].Value.ToString();
+            string available = myRow.Cells[4].Value.ToString();
+            string reserved = myRow.Cells[5].Value.ToString();
+            
+            Form5 edit = new Form5(autor, tutul, available, reserved);
+            edit.ShowDialog(this);
 
             //MessageBox.Show(autor);             
-            //MessageBox.Show(myRow.Cells[3].Value.ToString());
-                                   
+            //MessageBox.Show(myRow.Cells[3].Value.ToString());                 
             //nowy "myRow" z obecnie zaznaczonego rowa
             //DataGridViewRow myRow = dgDisplay.CurrentRow;
             //myRow.Cells[0].ToString();
@@ -278,24 +285,31 @@ namespace ConnectCsharpToMysql
         //nacisniecie r
         public void r(object sender, PreviewKeyDownEventArgs e)
         {
-            //deklarujemy datagridview na rzedach
-            DataGridViewRow myRow = dgDisplay.CurrentRow;
-            //wyciagamy autora (2 kolumna) i przypisujemy do zmiennej publicznej autor itd...
-            autor = myRow.Cells[2].Value.ToString();
-            tutul = myRow.Cells[3].Value.ToString();
-            available = myRow.Cells[4].Value.ToString();
-            reserved = myRow.Cells[5].Value.ToString();
-
-            //MessageBox.Show(autor + " " + tutul + " " + available + " " + reserved);
-            
-            //wywolujemy okno edytuj
-            Form5 edytuj = new Form5();
-            edytuj.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void quitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void autorzyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            autorzy aut = new autorzy();
+            aut.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(autor);
         }
 
     

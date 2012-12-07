@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("NX8220")]
 [assembly: AssemblyProduct("ConnectCsharpToMysql")]
-[assembly: AssemblyCopyright("Copyright © NX8220 2009")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

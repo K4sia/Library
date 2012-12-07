@@ -85,3 +85,19 @@ C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Deb
 C:\Documents and Settings\STUDENT\Moje dokumenty\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\Resources\tlo.jpg
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.autorzy.resources
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\bin\Debug\Resources\tlo.jpg
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.autorzy.resources
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form2.resources
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ResGen.read.1.tlog
+D:\PG\WZORCEPROJEKTOWE\20121206\PROGRAM2\obj\Debug\ResGen.write.1.tlog

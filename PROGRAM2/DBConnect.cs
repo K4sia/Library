@@ -97,9 +97,9 @@ namespace ConnectCsharpToMysql
         }
 
         //Update statement
-        public void Update1(string title, string author, string av, string res, string title_ed, string author_ed, string av_ed, string res_ed)
+        public void Update(string title, string name, string title_ed, string name_ed)
         {
-            string query = "UPDATE RESOURCES SET Title='"+title+"', Author_Name='"+author+"', Is_Avaliable='"+av+"', Is_Reserve='"+res+"' WHERE Title='"+title_ed+"', Author_Name='"+author_ed+"', Is_Avaliable='"+av_ed+"', Is_Reserve='"+res_ed+"'";
+            string query = "UPDATE RESOURCES SET Title='"+title+"', Author_Name='"+name+"' WHERE Title='"+title_ed+"' AND Author_Name='"+name_ed+"'";
 
             //Open connection
             if (this.OpenConnection() == true)
@@ -119,8 +119,28 @@ namespace ConnectCsharpToMysql
             }
         }
 
+        public void Rezerwuj(string res, string title_ed, string name_ed)
+        {
+            string query = "UPDATE RESOURCES SET Is_Reserve='"+res+"' WHERE Title='"+title_ed+"' AND Author_Name='"+name_ed+"'";
 
+            //Open connection
+            if (this.OpenConnection() == true)
+            {
+                //create mysql command
+                MySqlCommand cmd = new MySqlCommand();
+                //Assign the query using CommandText
+                cmd.CommandText = query;
+                //Assign the connection using Connection
+                cmd.Connection = connection;
 
+                //Execute query
+                cmd.ExecuteNonQuery();
+
+                //close connection
+                this.CloseConnection();
+            }
+        }
+       
 
         //Delete statement
         //public void Delete()

@@ -26,7 +26,7 @@ namespace ConnectCsharpToMysql
             string title = textBox1.Text;
             string name = textBox2.Text;
             string av = "Y";
-            string res = "Y";
+            string res = "N";
 
             dbConnect.Insert(id_kind, title, name, av, res);
 
