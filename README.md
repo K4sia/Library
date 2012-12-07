@@ -1,4 +1,22 @@
-﻿---Adam - 20121204
+﻿---Adam - 20121207
+
+Wiec nasz program jest juz dzialajacym, w pelni funkcjonalnym programem.
+Mozna:
+- szukac
+- dodawac
+- edytowac
+- rezerwowac/ oddawac jednym kliknieciem
+
+Pozostalo zrobienie logowania. Fajnie by bylo, gdyby pojawila sie
+mozliwosc wyswietlenia samych wszystkich ksiazek/filmow/plyt
+
+Dzisiaj postaram sie z p.Reichelem rozwiazac problem dodawania grafiki i
+na wtorek, jak sie spotkamy ubiore nasz program w ladna grafike.
+
+Cheers!
+
+
+---Adam - 20121204
 
 Dodana funkcjonalnosc szukania, dodawania rekordow, zarowno z menu jak i poprzez przyciski - kuleje natomiast edycja, ale wszystko jest napisane, trzeba tylko porawdzic sobie z malymi bledami. Wszystko w komentarzach.
 
