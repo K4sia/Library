@@ -79,6 +79,72 @@ namespace ConnectCsharpToMysql
             }
         }
 
+
+
+        public List<string>[] Login(string user, string pass) 
+        {
+            string query = "SELECT * FROM USERS where Login='"+user+"' && Password ='"+pass+"'";
+
+            //Create a list to store the result
+            List<string>[] list = new List<string>[9];
+            list[0] = new List<string>();
+            list[1] = new List<string>();
+            list[2] = new List<string>();
+            list[3] = new List<string>();
+            list[4] = new List<string>();
+            list[5] = new List<string>();
+            list[6] = new List<string>();
+            list[7] = new List<string>();
+            list[8] = new List<string>();
+
+
+            //Open connection
+            if (this.OpenConnection() == true)
+            {
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                //Create a data reader and Execute the command
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+
+                //Read the data and store them in the list
+                while (dataReader.Read())
+                {
+
+                    list[0].Add(dataReader["id_user"] + "");
+                    list[1].Add(dataReader["id_authority"] + "");
+                    list[2].Add(dataReader["user_name"] + "");
+                    list[3].Add(dataReader["user_surname"] + "");
+                    list[4].Add(dataReader["pesel"] + "");
+                    list[5].Add(dataReader["limitk"] + "");
+                    list[6].Add(dataReader["amount_of_borrows"] + "");
+                    list[7].Add(dataReader["login"] + "");
+                    list[8].Add(dataReader["password"] + "");
+
+                }
+
+                //
+                //close Data Reader
+                dataReader.Close();
+
+                //close Connection
+                this.CloseConnection();
+
+                //return list to be displayed
+                return list;
+            }
+            else
+            {
+
+                return list;
+            }
+        }
+
+
+
+
+
+
+
         //Insert statement
         public void Insert(int id_kind, string title, string name, string av, string res)
         {
@@ -246,11 +312,10 @@ namespace ConnectCsharpToMysql
                 int hour = Time.Hour;
                 int minute = Time.Minute;
                 int second = Time.Second;
-                int millisecond = Time.Millisecond;
 
                 //Save file to C:\ with the current date as a filename
                 string path;
-                path = "C:\\" + year + "-" + month + "-" + day + "-" + hour + "-" + minute + "-" + second + "-" + millisecond + ".sql";
+                path = "C:\\Backup\\" + year + "-" + month + "-" + day + "-" + hour +".sql";
                 StreamWriter file = new StreamWriter(path);
 
                 

@@ -1,6 +1,4 @@
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\Resources\tlo.jpg
-C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\SPB.exe
-C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\SPB.pdb
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.autorzy.resources
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
@@ -8,8 +6,12 @@ C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.F
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
-C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\SPB.Properties.Resources.resources
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\GenerateResource.read.1.tlog
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\GenerateResource.write.1.tlog
-C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\SPB.exe
-C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\SPB.pdb
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.UZYTKOWNIK.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.LOGIN.resources

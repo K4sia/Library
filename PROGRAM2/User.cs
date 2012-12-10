@@ -31,8 +31,6 @@ namespace ConnectCsharpToMysql
             return tab;
 
         }
-        
-   
    
     }
 }

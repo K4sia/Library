@@ -56,7 +56,6 @@ namespace ConnectCsharpToMysql
             this.backupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.odtworzBDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zalogujToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zmienUzytkownikaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wylogujToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             ((System.ComponentModel.ISupportInitialize)(this.dgDisplay)).BeginInit();
@@ -170,7 +169,7 @@ namespace ConnectCsharpToMysql
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.BackgroundImage = global::SPB.Properties.Resources.book;
+            this.button2.BackgroundImage = global::ConnectCsharpToMysql.Properties.Resources.book;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -196,7 +195,7 @@ namespace ConnectCsharpToMysql
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.BackgroundImage = global::SPB.Properties.Resources.music;
+            this.button4.BackgroundImage = global::ConnectCsharpToMysql.Properties.Resources.music;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -221,7 +220,7 @@ namespace ConnectCsharpToMysql
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.BackgroundImage = global::SPB.Properties.Resources.movie;
+            this.button3.BackgroundImage = global::ConnectCsharpToMysql.Properties.Resources.movie;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -315,23 +314,17 @@ namespace ConnectCsharpToMysql
             // zalogujToolStripMenuItem
             // 
             this.zalogujToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zmienUzytkownikaToolStripMenuItem,
             this.wylogujToolStripMenuItem});
             this.zalogujToolStripMenuItem.Name = "zalogujToolStripMenuItem";
             this.zalogujToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.zalogujToolStripMenuItem.Text = "Logowanie";
             // 
-            // zmienUzytkownikaToolStripMenuItem
-            // 
-            this.zmienUzytkownikaToolStripMenuItem.Name = "zmienUzytkownikaToolStripMenuItem";
-            this.zmienUzytkownikaToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.zmienUzytkownikaToolStripMenuItem.Text = "zmien uzytkownika";
-            // 
             // wylogujToolStripMenuItem
             // 
             this.wylogujToolStripMenuItem.Name = "wylogujToolStripMenuItem";
-            this.wylogujToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.wylogujToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.wylogujToolStripMenuItem.Text = "wyloguj";
+            this.wylogujToolStripMenuItem.Click += new System.EventHandler(this.wylogujToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -411,7 +404,6 @@ namespace ConnectCsharpToMysql
         private System.Windows.Forms.ToolStripMenuItem backupToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem odtworzBDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zalogujToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem zmienUzytkownikaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wylogujToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
     }

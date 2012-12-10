@@ -8,8 +8,8 @@
     <ProjectGuid>{435A9E2E-99F0-4204-AD51-6E71F9CEA5DA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SPB</RootNamespace>
-    <AssemblyName>SPB</AssemblyName>
+    <RootNamespace>ConnectCsharpToMysql</RootNamespace>
+    <AssemblyName>ConnectCsharpToMysql</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -103,9 +103,21 @@ Settings\STUDENT\Pulpit\mysql_connector2\bin\MySql.Data.dll</HintPath>
       <DependentUpon>EDIT.cs</DependentUpon>
     </Compile>
     <Compile Include="Library.cs" />
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="UZYTKOWNIK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK.Designer.cs">
+      <DependentUpon>UZYTKOWNIK.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AUTORZY.resx">
       <DependentUpon>AUTORZY.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +137,9 @@ Settings\STUDENT\Pulpit\mysql_connector2\bin\MySql.Data.dll</HintPath>
     <EmbeddedResource Include="EDIT.resx">
       <DependentUpon>EDIT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -135,6 +150,9 @@ Settings\STUDENT\Pulpit\mysql_connector2\bin\MySql.Data.dll</HintPath>
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UZYTKOWNIK.resx">
+      <DependentUpon>UZYTKOWNIK.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="bin\Release\ConnectCsharpToMysql.vshost.exe.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

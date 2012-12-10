@@ -12,12 +12,11 @@ namespace ConnectCsharpToMysql
     {
         private DBConnect dbConnect;
 
+
         public Form1()
         {
             InitializeComponent();
             dbConnect = new DBConnect();
-            
-
         }
 
 
@@ -310,6 +309,13 @@ namespace ConnectCsharpToMysql
         private void button6_Click(object sender, EventArgs e)
         {
             MessageBox.Show(autor);
+        }
+
+        private void wylogujToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            LOGIN log = new LOGIN();
+            log.Show();
         }
 
     
