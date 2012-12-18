@@ -33,18 +33,18 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.dgDisplay = new System.Windows.Forms.DataGridView();
-            this.ciD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cAge = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Author_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.autorzyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zalogujToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wylogujToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ciD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cAge = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Author_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgDisplay)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -113,6 +113,56 @@
             this.dgDisplay.Size = new System.Drawing.Size(604, 230);
             this.dgDisplay.TabIndex = 27;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.zalogujToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(597, 24);
+            this.menuStrip1.TabIndex = 33;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.quitToolStripMenuItem,
+            this.autorzyToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(34, 20);
+            this.fileToolStripMenuItem.Text = "Plik";
+            // 
+            // quitToolStripMenuItem
+            // 
+            this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.quitToolStripMenuItem.Text = "Zakoncz";
+            this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
+            // 
+            // autorzyToolStripMenuItem
+            // 
+            this.autorzyToolStripMenuItem.Name = "autorzyToolStripMenuItem";
+            this.autorzyToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.autorzyToolStripMenuItem.Text = "Autorzy";
+            this.autorzyToolStripMenuItem.Click += new System.EventHandler(this.autorzyToolStripMenuItem_Click);
+            // 
+            // zalogujToolStripMenuItem
+            // 
+            this.zalogujToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.wylogujToolStripMenuItem});
+            this.zalogujToolStripMenuItem.Name = "zalogujToolStripMenuItem";
+            this.zalogujToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
+            this.zalogujToolStripMenuItem.Text = "Logowanie";
+            // 
+            // wylogujToolStripMenuItem
+            // 
+            this.wylogujToolStripMenuItem.Name = "wylogujToolStripMenuItem";
+            this.wylogujToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.wylogujToolStripMenuItem.Text = "wyloguj";
+            this.wylogujToolStripMenuItem.Click += new System.EventHandler(this.wylogujToolStripMenuItem_Click);
+            // 
             // ciD
             // 
             this.ciD.HeaderText = "ID";
@@ -121,7 +171,7 @@
             // 
             // cName
             // 
-            this.cName.HeaderText = "TYP";
+            this.cName.HeaderText = "RODZAJ";
             this.cName.Name = "cName";
             this.cName.ReadOnly = true;
             // 
@@ -148,56 +198,6 @@
             this.Column3.HeaderText = "REZERWACJA";
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.zalogujToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(597, 24);
-            this.menuStrip1.TabIndex = 33;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.quitToolStripMenuItem,
-            this.autorzyToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.fileToolStripMenuItem.Text = "Plik";
-            // 
-            // quitToolStripMenuItem
-            // 
-            this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
-            this.quitToolStripMenuItem.Text = "Zakoncz";
-            this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
-            // 
-            // autorzyToolStripMenuItem
-            // 
-            this.autorzyToolStripMenuItem.Name = "autorzyToolStripMenuItem";
-            this.autorzyToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
-            this.autorzyToolStripMenuItem.Text = "Autorzy";
-            this.autorzyToolStripMenuItem.Click += new System.EventHandler(this.autorzyToolStripMenuItem_Click);
-            // 
-            // zalogujToolStripMenuItem
-            // 
-            this.zalogujToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.wylogujToolStripMenuItem});
-            this.zalogujToolStripMenuItem.Name = "zalogujToolStripMenuItem";
-            this.zalogujToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.zalogujToolStripMenuItem.Text = "Logowanie";
-            // 
-            // wylogujToolStripMenuItem
-            // 
-            this.wylogujToolStripMenuItem.Name = "wylogujToolStripMenuItem";
-            this.wylogujToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.wylogujToolStripMenuItem.Text = "wyloguj";
-            this.wylogujToolStripMenuItem.Click += new System.EventHandler(this.wylogujToolStripMenuItem_Click);
             // 
             // UZYTKOWNIK
             // 
@@ -231,18 +231,18 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         public System.Windows.Forms.DataGridView dgDisplay;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ciD;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cAge;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Author_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem autorzyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zalogujToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wylogujToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ciD;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cAge;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Author_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
 
     }
 }
