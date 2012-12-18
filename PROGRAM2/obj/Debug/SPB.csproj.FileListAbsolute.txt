@@ -15,3 +15,5 @@ C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.p
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.LOGIN.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb

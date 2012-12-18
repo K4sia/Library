@@ -93,5 +93,7 @@ namespace ConnectCsharpToMysql
             LOGIN log = new LOGIN();
             log.Show();
         }
+
+ 
     }
 }

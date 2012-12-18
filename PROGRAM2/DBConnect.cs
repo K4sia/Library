@@ -226,7 +226,7 @@ namespace ConnectCsharpToMysql
         {
             string param=paramnasze;
             string tekst1="'%"+tekst+"%'";
-            string query = "SELECT * FROM RESOURCES where "+param+" like "+tekst1;
+            string query = "SELECT Id_Resources, Name, Title, Author_Name, Is_Available, Is_Reserve FROM RESOURCES INNER JOIN KIND_OF_RESOURCES ON RESOURCES.Id_Kind=KIND_OF_RESOURCES.Id_Kind where " + param + " like " + tekst1;
 
             //Create a list to store the result
             List<string>[] list = new List<string>[7];
