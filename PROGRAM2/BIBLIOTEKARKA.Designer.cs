@@ -140,7 +140,7 @@ namespace ConnectCsharpToMysql
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(68, 398);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(50, 17);
+            this.radioButton2.Size = new System.Drawing.Size(49, 17);
             this.radioButton2.TabIndex = 9;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Tytu³";
@@ -238,21 +238,21 @@ namespace ConnectCsharpToMysql
             this.quitToolStripMenuItem,
             this.autorzyToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(34, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.fileToolStripMenuItem.Text = "Plik";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.quitToolStripMenuItem.Text = "Zakoñcz";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
             // autorzyToolStripMenuItem
             // 
             this.autorzyToolStripMenuItem.Name = "autorzyToolStripMenuItem";
-            this.autorzyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.autorzyToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.autorzyToolStripMenuItem.Text = "Autorzy";
             this.autorzyToolStripMenuItem.Click += new System.EventHandler(this.autorzyToolStripMenuItem_Click);
             // 
@@ -263,28 +263,28 @@ namespace ConnectCsharpToMysql
             this.muzykeToolStripMenuItem,
             this.filmToolStripMenuItem});
             this.dodajToolStripMenuItem.Name = "dodajToolStripMenuItem";
-            this.dodajToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.dodajToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.dodajToolStripMenuItem.Text = "Dodaj";
             this.dodajToolStripMenuItem.Click += new System.EventHandler(this.dodajToolStripMenuItem_Click);
             // 
             // ksiazkeToolStripMenuItem
             // 
             this.ksiazkeToolStripMenuItem.Name = "ksiazkeToolStripMenuItem";
-            this.ksiazkeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ksiazkeToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.ksiazkeToolStripMenuItem.Text = "Ksiazke";
             this.ksiazkeToolStripMenuItem.Click += new System.EventHandler(this.ksiazkeToolStripMenuItem_Click);
             // 
             // muzykeToolStripMenuItem
             // 
             this.muzykeToolStripMenuItem.Name = "muzykeToolStripMenuItem";
-            this.muzykeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.muzykeToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.muzykeToolStripMenuItem.Text = "Muzyke";
             this.muzykeToolStripMenuItem.Click += new System.EventHandler(this.muzykeToolStripMenuItem_Click);
             // 
             // filmToolStripMenuItem
             // 
             this.filmToolStripMenuItem.Name = "filmToolStripMenuItem";
-            this.filmToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.filmToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.filmToolStripMenuItem.Text = "Film";
             this.filmToolStripMenuItem.Click += new System.EventHandler(this.filmToolStripMenuItem_Click);
             // 
@@ -294,21 +294,20 @@ namespace ConnectCsharpToMysql
             this.backupToolStripMenuItem,
             this.odtworzBDToolStripMenuItem});
             this.narzedziaToolStripMenuItem.Name = "narzedziaToolStripMenuItem";
-            this.narzedziaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.narzedziaToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.narzedziaToolStripMenuItem.Text = "Narzedzia";
-            this.narzedziaToolStripMenuItem.Click += new System.EventHandler(this.narzedziaToolStripMenuItem_Click);
             // 
             // backupToolStripMenuItem
             // 
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.backupToolStripMenuItem.Text = "Backup BD";
             this.backupToolStripMenuItem.Click += new System.EventHandler(this.backupToolStripMenuItem_Click);
             // 
             // odtworzBDToolStripMenuItem
             // 
             this.odtworzBDToolStripMenuItem.Name = "odtworzBDToolStripMenuItem";
-            this.odtworzBDToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.odtworzBDToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.odtworzBDToolStripMenuItem.Text = "Odtworz BD";
             this.odtworzBDToolStripMenuItem.Click += new System.EventHandler(this.odtworzBDToolStripMenuItem_Click);
             // 
@@ -317,7 +316,7 @@ namespace ConnectCsharpToMysql
             this.zalogujToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.wylogujToolStripMenuItem});
             this.zalogujToolStripMenuItem.Name = "zalogujToolStripMenuItem";
-            this.zalogujToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
+            this.zalogujToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.zalogujToolStripMenuItem.Text = "Logowanie";
             // 
             // wylogujToolStripMenuItem

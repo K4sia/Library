@@ -318,11 +318,6 @@ namespace ConnectCsharpToMysql
             log.Show();
         }
 
-        private void narzedziaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
     
     }
 }

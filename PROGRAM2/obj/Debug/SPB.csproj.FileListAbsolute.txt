@@ -15,20 +15,3 @@ C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.p
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
 C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.LOGIN.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\bin\Debug\Resources\tlo.jpg
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.autorzy.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form2.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.LOGIN.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.UZYTKOWNIK.resources
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\GenerateResource.read.1.tlog
-C:\Documents and Settings\STUDENT\Pulpit\Library-master\Library-master\PROGRAM2\obj\Debug\GenerateResource.write.1.tlog
