@@ -251,7 +251,7 @@ namespace ConnectCsharpToMysql
                {
                   
                     list[0].Add(dataReader["id_resources"] + "");
-                    list[1].Add(dataReader["id_kind"] + "");
+                    list[1].Add(dataReader["name"] + "");
                     list[2].Add(dataReader["title"] + "");
                     list[3].Add(dataReader["author_name"] + "");
                     list[4].Add(dataReader["is_available"] + "");
