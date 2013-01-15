@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == ''&#xD;&#xA;">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{435A9E2E-99F0-4204-AD51-6E71F9CEA5DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConnectCsharpToMysql</RootNamespace>
+    <AssemblyName>ConnectCsharpToMysql</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' ==&#xD;&#xA;'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' ==&#xD;&#xA;'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>C:\Documents and
+Settings\STUDENT\Pulpit\mysql_connector2\bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AUTORZY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AUTORZY.Designer.cs">
+      <DependentUpon>AUTORZY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnect.cs" />
+    <Compile Include="BIBLIOTEKARKA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIBLIOTEKARKA.Designer.cs">
+      <DependentUpon>BIBLIOTEKARKA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DOD_PLYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOD_PLYT.Designer.cs">
+      <DependentUpon>DOD_PLYT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DOD_KSIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOD_KSIA.Designer.cs">
+      <DependentUpon>DOD_KSIA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DOD_FILM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOD_FILM.Designer.cs">
+      <DependentUpon>DOD_FILM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDIT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDIT.Designer.cs">
+      <DependentUpon>EDIT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDITb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDITb.Designer.cs">
+      <DependentUpon>EDITb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="START.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="START.Designer.cs">
+      <DependentUpon>START.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NAZW_PESEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NAZW_PESEL.Designer.cs">
+      <DependentUpon>NAZW_PESEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KONTO_USERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KONTO_USERS.Designer.cs">
+      <DependentUpon>KONTO_USERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NOWY_UZYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NOWY_UZYT.Designer.cs">
+      <DependentUpon>NOWY_UZYT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library.cs" />
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="USUN_UZYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USUN_UZYT.Designer.cs">
+      <DependentUpon>USUN_UZYT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK.Designer.cs">
+      <DependentUpon>UZYTKOWNIK.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AUTORZY.resx">
+      <DependentUpon>AUTORZY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIBLIOTEKARKA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BIBLIOTEKARKA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOD_PLYT.resx">
+      <DependentUpon>DOD_PLYT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOD_KSIA.resx">
+      <DependentUpon>DOD_KSIA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOD_FILM.resx">
+      <DependentUpon>DOD_FILM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDIT.resx">
+      <DependentUpon>EDIT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDITb.resx">
+      <DependentUpon>EDITb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="START.resx">
+      <DependentUpon>START.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NAZW_PESEL.resx">
+      <DependentUpon>NAZW_PESEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KONTO_USERS.resx">
+      <DependentUpon>KONTO_USERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NOWY_UZYT.resx">
+      <DependentUpon>NOWY_UZYT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="USUN_UZYT.resx">
+      <DependentUpon>USUN_UZYT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK.resx">
+      <DependentUpon>UZYTKOWNIK.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Release\ConnectCsharpToMysql.vshost.exe.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\tlo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ksiazka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the
+targets below and uncomment it.
+      Other similar extension points exist, see Microsoft.Common.targets.
+ <Target Name="BeforeBuild">
+ </Target>
+ <Target Name="AfterBuild">
+ </Target>
+ -->
+</Project>

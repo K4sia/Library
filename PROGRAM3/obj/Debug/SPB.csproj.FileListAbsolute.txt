@@ -1,0 +1,85 @@
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\Resources\tlo.jpg
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.autorzy.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form2.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.UZYTKOWNIK.resources
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
+C:\Users\adam\Documents\GitHub\Library\PROGRAM2\obj\Debug\ConnectCsharpToMysql.LOGIN.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\bin\Debug\Resources\tlo.jpg
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.autorzy.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form2.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.LOGIN.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.UZYTKOWNIK.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\bin\Debug\Resources\tlo.jpg
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.autorzy.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form2.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.LOGIN.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.UZYTKOWNIK.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.KONTO_USERS.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.NOWY_UZYT.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.USUN_UZYT.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pesel.resources
+C:\Users\Rafał\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.START.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.START.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pesel.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.KONTO_USERS.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.NOWY_UZYT.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.USUN_UZYT.resources
+C:\Documents and Settings\STUDENT\Pulpit\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.EDITb.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.exe
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pdb
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\bin\Debug\Resources\tlo.jpg
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\bin\Debug\ConnectCsharpToMysql.exe
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\bin\Debug\ConnectCsharpToMysql.pdb
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.autorzy.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form1.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form2.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form3.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form4.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Form5.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.EDITb.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.START.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.pesel.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.KONTO_USERS.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.LOGIN.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.NOWY_UZYT.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.Properties.Resources.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.USUN_UZYT.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\ConnectCsharpToMysql.UZYTKOWNIK.resources
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Monisia\Desktop\Library-master\PROGRAM2\obj\Debug\GenerateResource.write.1.tlog
